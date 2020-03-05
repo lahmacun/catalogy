@@ -1,3 +1,6 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+lahmacun_routes:
+  resource: '../src/Lahmacun/AuthSDK/Controller/'
+  type: annotation
